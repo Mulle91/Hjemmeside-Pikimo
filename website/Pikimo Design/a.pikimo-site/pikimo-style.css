@@ -12,13 +12,14 @@ h1 {
 	text-align: center;
 	border-style: solid;
 	border-width: 5px;
-	margin-left: 200px;
-	margin-right: 200px;
 	background-color: #7bb7f9;
 	border-color: blue;
 	border-radius: 5px;
 	font-family: papyrus;
 	font-size: 60px;
+	min-width: 310px;
+	max-width: 320px;
+	margin: auto;
 }
 
 /* design knap */
@@ -28,11 +29,12 @@ h1 {
 	margin: 200px;
 	padding: 0;
 	border: 4px solid #000;
-	margin-right: 1500px;
 	margin-top: -190px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 0px 3px #ef4ff9 inset;
 	margin-top: 12px;
+	min-width: 203px;
+	max-width: 203px;
 	}
 
 /* design knap funktion */
@@ -49,10 +51,11 @@ h1 {
 	margin: 200px;
 	padding: 0;
 	border: 4px solid #000;
-	margin-right: 1500px;
 	margin-top: -190px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 0px 3px #4cd550 inset;
+	min-width: 203px;
+	max-width: 203px;
 	}
 
 /* print knap funktion */
@@ -69,10 +72,11 @@ h1 {
 	margin: 200px;
 	padding: 0;
 	border: 4px solid #000;
-	margin-right: 1500px;
 	margin-top: -190px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 0px 3px #ffa500 inset;
+	min-width: 203px;
+	max-width: 203px;
 	}
 
 /* upstyle knap funktion */
@@ -89,10 +93,11 @@ h1 {
 	margin: 200px;
 	padding: 0;
 	border: 4px solid #000;
-	margin-right: 1500px;
 	margin-top: -190px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 0px 3px #993299 inset;
+	min-width: 203px;
+	max-width: 203px;
 	}
 
 /* allonweb knap funktion */
@@ -116,8 +121,9 @@ li a {
 .topnav {
 	background-color: #5b5b5b;
 	overflow: hidden;
-	margin-left: 200px;
-	margin-right: 200px;
+	min-width: 310px;
+	max-width: 650px;
+	margin: auto;
 }
 
 /* top nav knapper */
@@ -141,9 +147,9 @@ li a {
 .buttomnav {
 	background-color: #5b5b5b;
 	overflow: hidden;
-	margin-top: 100px;
-	margin-right: 200px; 
-	margin-left:200px;
+	min-width: 340px;
+	max-width: 340px;
+	margin: auto;
 }
 
 /* buttom nav knapper */
