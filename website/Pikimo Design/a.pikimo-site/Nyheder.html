@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Pikimo.com/nyheder</title>
+
+	<link rel="stylesheet" type="text/css" href="nyheder.css">
+
+	<!-- facebook knap -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<!-- Overskrift -->
+<h1><em><strong>Nyheder</em></strong></h1>
+
+<!-- Top navigation -->
+<div class="topnav" id="myTopnav">
+		<a href="pikimo-design.html">Hjem</a>
+		<a href="Nyheder.html">Nyheder</a>
+		<a href="log in">Log In</a>
+		<a href="indkøbskurv">Indkøbskurv/Kassen</a>
+		<a href="skrift sprog">Skift Sprog</a>
+</div>
+
+<!-- slideshow -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="Ørering.jpg" alt="Ørering" style="width:500px;height:500px">
+    <div class="text">Ørering</div>
+ </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="Ørering3.jpg" alt="Ørering" style="width:500px;height:500px">
+    <div class="text">Ørering</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="Ørering2.jpg" alt="Ørering" style="width:500px;height:500px">
+    <div class="text">Ørering</div>
+  </div>
+
+  <div class="mySlides fade">
+  	<div class="numbertext">4 / 4</div>
+  	<img src="Armbånd.jpg" alt="Armbånd" style="width:500px;height:500px">
+  	<div class="text">Armbånd</div>
+  	</div>
+  
+
+	<!-- Frem og tilbage function på slideshow -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+	<!-- prikkerne under slideshow -->
+	<div style="text-align: center;">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		
+	</div>
+
+	<!-- skifte function på slideshow -->
+<script>
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<!-- buttom navigation -->
+<div class="buttomnav" id="myButtomnav">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#kontakt">Vi Modtager</a>
+		<a href="om os">Om Os</a>
+		<a href="vi modtager">Kontakt</a>
+	</div>
+
+
+</body>
+
+</html>
