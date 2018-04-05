@@ -1,0 +1,36 @@
+#overskrift {
+    position: center;
+    width: 15%;
+    background-color: #7BC4F1;
+    text-align: center;
+    margin: auto;
+    border: 5px solid;
+    border-color: #3A5ED6;
+    font-size: 75px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A515B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    background-color: #cccccc;
+}
