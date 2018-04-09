@@ -1,6 +1,7 @@
 #overskrift {
     position: center;
-    width: 15%;
+    min-width: 15%;
+    max-width: 30%;
     background-color: #7BC4F1;
     text-align: center;
     margin: auto;
@@ -10,7 +11,8 @@
     display: block;
 }
 
-ul {
+.topnav {
+    max-width: 100%;
     list-style-type: none;
     margin-top: 20px;
     padding: 0;
@@ -18,11 +20,12 @@ ul {
     background-color: #4A515B;
 }
 
-li {
+.topnav li {
     float: left;
 }
 
-li a {
+.topnav li a {
+    position: relative;
     display: block;
     color: white;
     text-align: center;
@@ -30,7 +33,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.topnav li a:hover {
     color: black;
     background-color: #cccccc;
 }
