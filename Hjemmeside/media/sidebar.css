@@ -1,0 +1,48 @@
+.sidetext a {
+	text-decoration: none;
+	color: black;
+}
+
+#design {
+	border: 5px solid;
+	border-color: pink;
+	max-width: 10%;
+	background-color: lightgray;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	outline: 3px solid black;
+}
+
+#print {
+	border: 5px solid;
+	border-color: green;
+	max-width: 10%;
+	background-color: lightgray;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	outline: 3px solid black;
+}
+
+#upstyle {
+	border: 5px solid;
+	border-color: yellow;
+	max-width: 10%;
+	background-color: lightgray;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	outline: 3px solid black;
+}
+
+#allonweb {
+	border: 5px solid;
+	border-color: purple;
+	max-width: 10%;
+	background-color: lightgray;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	outline: 3px solid black;
+}

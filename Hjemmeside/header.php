@@ -19,7 +19,10 @@
   <li><a href="#3">Opret</a></li>
   <li><a href="#4">Log Ud</a></li>
   <li><a href="#5">Indkødskurv/Kassen</a></li>
-  <li><a href="#6">Skirft Sprog</a></li>
+  <li><a href="#6">Skift Sprog</a></li>
   <li><a href="#7">Admin</a></li>
 </ul>
 
+<?php 
+  include 'sidebar.php';
+?>
